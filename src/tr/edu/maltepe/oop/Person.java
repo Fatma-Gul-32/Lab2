@@ -47,7 +47,7 @@ public class Person {
         System.out.println(user.getName()+ " lended " + aBook.getName());
 
         for (int i=0; i< lendBook.size(); i++){
-            System.out.println(lendBook.elementAt(i));
+            System.out.println(lendBook.elementAt(i).getName());
         }
     }
 

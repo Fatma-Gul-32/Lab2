@@ -3,7 +3,6 @@ import java.util.Vector;
 
 public class Prof extends Person{
 
-//    private Vector lendBook;
     public Prof(){}
     public Prof(String name,String surname, int id){
 
@@ -12,13 +11,4 @@ public class Prof extends Person{
         this.setId(id);
     }
 
-
-
-//    public void get_book(Books aBook) {
-//        lendBook.add(aBook);
-//    }
-//
-//    public void give_book(Books aBook) {
-//        lendBook.remove(aBook);
-//    }
 }
