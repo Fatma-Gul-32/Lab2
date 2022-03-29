@@ -6,6 +6,7 @@ public class Main {
 
         Prof p1=new Prof("Ensar", "Gül", 41);
         Student s1=new Student("Fatma Gül", "Bağrıaçık", 190704023);
+        Student s2= new Student("student", "s2", 1539742);
 
         Books b1=new Books("Intro to Java", 984);
         Books b2=new Books("C Programming", 184);
@@ -21,16 +22,19 @@ public class Main {
 
         s1.get_book(b1,s1);
         p1.get_book(b3,p1);
+        s2.get_book(b2,s2);
 
         System.out.println("\n");
 
         myLib.borrow_book(b1);
         myLib.borrow_book(b3);
+        myLib.borrow_book(b2);
 
         System.out.println("\n");
 
         s1.give_book(b1,s1);
         p1.give_book(b3,p1);
+        s2.give_book(b2, s2);
 
         System.out.println("\n");
 
